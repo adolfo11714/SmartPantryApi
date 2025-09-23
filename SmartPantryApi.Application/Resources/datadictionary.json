@@ -1,0 +1,689 @@
+{
+    "name": "Data Dictionary",
+    "data": [
+        [
+            {
+                "Sheet": "Version"
+            },
+            {
+                "Column": "Data_Version_Number"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Version"
+            },
+            {
+                "Column": "Modified_Date"
+            },
+            {
+                "Description": "Date"
+            }
+        ],
+        [
+            {
+                "Sheet": "Version"
+            },
+            {
+                "Column": "FSIS_Approved_Flag"
+            },
+            {
+                "Description": "Character, Y or N"
+            }
+        ],
+        [
+            {
+                "Sheet": "Version"
+            },
+            {
+                "Column": "Approved_Date"
+            },
+            {
+                "Description": "Date"
+            }
+        ],
+        [
+            {
+                "Sheet": "Version"
+            },
+            {
+                "Column": "Notes"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "Category"
+            },
+            {
+                "Column": "ID"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Category"
+            },
+            {
+                "Column": "Category_Name"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "Category"
+            },
+            {
+                "Column": "Subcategory_Name"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "ID"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Category_ID"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Name"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Name_subtitle"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Pantry_Min"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Pantry_Max"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Pantry_Metric"
+            },
+            {
+                "Description": "Days, Weeks, Months, When Ripe, Indefinitely, Not Recommended"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Pantry_tips"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "DOP_Pantry_Min"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "DOP_Pantry_Max"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "DOP_Pantry_Metric"
+            },
+            {
+                "Description": "Days, Weeks, Months, When Ripe, Indefinitely, Not Recommended"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "DOP_Pantry_tips"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Pantry_After_Opening_Min"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Pantry_After_Opening_Max"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Pantry_After_Opening_Metric"
+            },
+            {
+                "Description": "Days, Weeks, Months, When Ripe, Indefinitely, Not Recommended"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Refrigerate_Min"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Refrigerate_Max"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Refrigerate_Metric"
+            },
+            {
+                "Description": "Days, Weeks, Months, When Ripe, Indefinitely, Not Recommended"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Refrigerate_tips"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "DOP_Refrigerate_Min"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "DOP_Refrigerate_Max"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "DOP_Refrigerate_Metric"
+            },
+            {
+                "Description": "Days, Weeks, Months, When Ripe, Indefinitely, Not Recommended"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "DOP_Refrigerate_tips"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Refrigerate_After_Opening_Min"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Refrigerate_After_Opening_Max"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Refrigerate_After_Opening_Metric"
+            },
+            {
+                "Description": "Days, Weeks, Months, When Ripe, Indefinitely, Not Recommended, Package use-by date"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Refrigerate_After_Thawing_Min"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Refrigerate_After_Thawing_Max"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Refrigerate_After_Thawing_Metric"
+            },
+            {
+                "Description": "Days, Weeks, Months, When Ripe, Indefinitely, Not Recommended"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Freeze_Min"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Freeze_Max"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Freeze_Metric"
+            },
+            {
+                "Description": "Days, Weeks, Months, When Ripe, Indefinitely, Not Recommended"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "Freeze_Tips"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "DOP_Freeze_Min"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "DOP_Freeze_Max"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "DOP_Freeze_Metric"
+            },
+            {
+                "Description": "Days, Weeks, Months, When Ripe, Indefinitely, Not Recommended"
+            }
+        ],
+        [
+            {
+                "Sheet": "Product"
+            },
+            {
+                "Column": "DOP_Freeze_Tips"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingTips"
+            },
+            {
+                "Column": "ID"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingTips"
+            },
+            {
+                "Column": "Product_ID"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingTips"
+            },
+            {
+                "Column": "Tips"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingTips"
+            },
+            {
+                "Column": "Safe_Minimum_Temperature"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingTips"
+            },
+            {
+                "Column": "Rest_Time"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingTips"
+            },
+            {
+                "Column": "Rest Time_metric"
+            },
+            {
+                "Description": "hours, minutes, seconds"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingMethods"
+            },
+            {
+                "Column": "ID"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingMethods"
+            },
+            {
+                "Column": "Product_ID"
+            },
+            {
+                "Description": "Integer"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingMethods"
+            },
+            {
+                "Column": "Cooking_Method"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingMethods"
+            },
+            {
+                "Column": "Measure_from"
+            },
+            {
+                "Description": "Decimal"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingMethods"
+            },
+            {
+                "Column": "Measure_to"
+            },
+            {
+                "Description": "Decimal"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingMethods"
+            },
+            {
+                "Column": "Size_metric"
+            },
+            {
+                "Description": "Pounds, Ounces, Inches"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingMethods"
+            },
+            {
+                "Column": "Cooking_Temperature"
+            },
+            {
+                "Description": "Text"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingMethods"
+            },
+            {
+                "Column": "Timing_from"
+            },
+            {
+                "Description": "Decimal"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingMethods"
+            },
+            {
+                "Column": "Timing_to"
+            },
+            {
+                "Description": "Decimal"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingMethods"
+            },
+            {
+                "Column": "Timing_metric"
+            },
+            {
+                "Description": "hours, minutes, seconds"
+            }
+        ],
+        [
+            {
+                "Sheet": "CookingMethods"
+            },
+            {
+                "Column": "Timing_per"
+            },
+            {
+                "Description": "Pound, Ounce, Inch"
+            }
+        ]
+    ],
+    "maxRows": 62,
+    "maxCols": 0
+}

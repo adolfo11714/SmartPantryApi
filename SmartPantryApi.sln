@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartPantryApi.Application", "SmartPantryApi.Application\SmartPantryApi.Application.csproj", "{733F91E7-4754-48A3-9AEE-C4926D7FACB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{45A7A370-03C6-45E8-A398-E8A333F58A47}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{733F91E7-4754-48A3-9AEE-C4926D7FACB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733F91E7-4754-48A3-9AEE-C4926D7FACB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733F91E7-4754-48A3-9AEE-C4926D7FACB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733F91E7-4754-48A3-9AEE-C4926D7FACB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

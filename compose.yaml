@@ -1,0 +1,7 @@
+﻿services:
+  smartpantryapi.application:
+    image: smartpantryapi.application
+    build:
+      context: .
+      dockerfile: SmartPantryApi.Application/Dockerfile
+

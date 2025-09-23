@@ -1,0 +1,1774 @@
+{
+    "name": "CookingTips",
+    "data": [
+        [
+            {
+                "ID": 1.0
+            },
+            {
+                "Product_ID": 21.0
+            },
+            {
+                "Tips": "Cook until yolk and white are firm."
+            },
+            {
+                "Safe_Minimum_Temperature": null
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 2.0
+            },
+            {
+                "Product_ID": 24.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 160.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 3.0
+            },
+            {
+                "Product_ID": 34.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 4.0
+            },
+            {
+                "Product_ID": 35.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 5.0
+            },
+            {
+                "Product_ID": 36.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 6.0
+            },
+            {
+                "Product_ID": 37.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 7.0
+            },
+            {
+                "Product_ID": 38.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 8.0
+            },
+            {
+                "Product_ID": 39.0
+            },
+            {
+                "Tips": "Braising is roasting or simmering less-tender meats with a small amount of liquid in a tightly covered pan."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 9.0
+            },
+            {
+                "Product_ID": 40.0
+            },
+            {
+                "Tips": "Cooking times are per side. Use a food thermometer to check internal temperature, and cook longer if below safe temperature."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 10.0
+            },
+            {
+                "Product_ID": 41.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 11.0
+            },
+            {
+                "Product_ID": 42.0
+            },
+            {
+                "Tips": "Braising is roasting or simmering less-tender meats with a small amount of liquid in a tightly covered pan."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 12.0
+            },
+            {
+                "Product_ID": 43.0
+            },
+            {
+                "Tips": "Cooking suggestions are for burgers. Cooking times are per side if grilling."
+            },
+            {
+                "Safe_Minimum_Temperature": 160.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 13.0
+            },
+            {
+                "Product_ID": 44.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 14.0
+            },
+            {
+                "Product_ID": 45.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 15.0
+            },
+            {
+                "Product_ID": 46.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 16.0
+            },
+            {
+                "Product_ID": 47.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 17.0
+            },
+            {
+                "Product_ID": 48.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 18.0
+            },
+            {
+                "Product_ID": 49.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 19.0
+            },
+            {
+                "Product_ID": 50.0
+            },
+            {
+                "Tips": "Cooking suggestions are for burgers. Cooking times are per side if grilling."
+            },
+            {
+                "Safe_Minimum_Temperature": 160.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 20.0
+            },
+            {
+                "Product_ID": 51.0
+            },
+            {
+                "Tips": "Cooking times are per side."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 21.0
+            },
+            {
+                "Product_ID": 52.0
+            },
+            {
+                "Tips": "Cook 4 inches from heat."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 22.0
+            },
+            {
+                "Product_ID": 53.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 23.0
+            },
+            {
+                "Product_ID": 54.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 24.0
+            },
+            {
+                "Product_ID": 55.0
+            },
+            {
+                "Tips": "Braising is roasting or simmering less-tender meats with a small amount of liquid in a tightly covered pan."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 25.0
+            },
+            {
+                "Product_ID": 56.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 26.0
+            },
+            {
+                "Product_ID": 57.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 27.0
+            },
+            {
+                "Product_ID": 58.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 28.0
+            },
+            {
+                "Product_ID": 59.0
+            },
+            {
+                "Tips": "Cooking suggestions are for burgers. Cooking times are per side if grilling."
+            },
+            {
+                "Safe_Minimum_Temperature": 160.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 29.0
+            },
+            {
+                "Product_ID": 60.0
+            },
+            {
+                "Tips": "When cooked to safe temperatures, fresh pork may still be pink inside - but it will be safe."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 30.0
+            },
+            {
+                "Product_ID": 61.0
+            },
+            {
+                "Tips": "When cooked to safe temperatures, fresh pork may still be pink inside - but it will be safe."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 34.0
+            },
+            {
+                "Product_ID": 63.0
+            },
+            {
+                "Tips": "When cooked to safe temperatures, fresh pork may still be pink inside - but it will be safe. Braising is roasting or simmering less-tender meats with a small amount of liquid in a tightly covered pan."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 37.0
+            },
+            {
+                "Product_ID": 64.0
+            },
+            {
+                "Tips": "When cooked to safe temperatures, fresh pork may still be pink inside - but it will be safe. Braising is roasting or simmering less-tender meats with a small amount of liquid in a tightly covered pan."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 38.0
+            },
+            {
+                "Product_ID": 65.0
+            },
+            {
+                "Tips": "When cooked to safe temperatures, fresh pork may still be pink inside - but it will be safe."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 39.0
+            },
+            {
+                "Product_ID": 66.0
+            },
+            {
+                "Tips": "When cooked to safe temperatures, fresh pork may still be pink inside - but it will be safe."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 40.0
+            },
+            {
+                "Product_ID": 67.0
+            },
+            {
+                "Tips": "When cooked to safe temperatures, fresh pork may still be pink inside - but it will be safe."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 41.0
+            },
+            {
+                "Product_ID": 67.0
+            },
+            {
+                "Tips": "When cooked to safe temperatures, fresh pork may still be pink inside - but it will be safe."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 43.0
+            },
+            {
+                "Product_ID": 69.0
+            },
+            {
+                "Tips": "When cooked to safe temperatures, fresh pork may still be pink inside - but it will be safe. Braising is roasting or simmering less-tender meats with a small amount of liquid in a tightly covered pan."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 46.0
+            },
+            {
+                "Product_ID": 72.0
+            },
+            {
+                "Tips": "When cooked to safe temperatures, fresh pork may still be pink inside - but it will be safe. Braising is roasting or simmering less-tender meats with a small amount of liquid in a tightly covered pan."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 48.0
+            },
+            {
+                "Product_ID": 73.0
+            },
+            {
+                "Tips": "cooking suggestions are for burgers. cooking times are per side if grilling."
+            },
+            {
+                "Safe_Minimum_Temperature": 160.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 49.0
+            },
+            {
+                "Product_ID": 74.0
+            },
+            {
+                "Tips": "When cooked to safe temperatures, fresh pork may still be pink inside - but it will be safe. Braising is roasting or simmering less-tender meats with a small amount of liquid in a tightly covered pan."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 50.0
+            },
+            {
+                "Product_ID": 75.0
+            },
+            {
+                "Tips": "When cooked to safe temperatures, fresh pork may still be pink inside - but it will be safe."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 51.0
+            },
+            {
+                "Product_ID": 76.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 160.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 53.0
+            },
+            {
+                "Product_ID": 83.0
+            },
+            {
+                "Tips": "Reheat cooked hams packaged in USDA-inspected plants to 140°F and all others to 165°F."
+            },
+            {
+                "Safe_Minimum_Temperature": 140.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 54.0
+            },
+            {
+                "Product_ID": 84.0
+            },
+            {
+                "Tips": "Reheat cooked hams packaged in USDA-inspected plants to 140°F and all others to 165°F."
+            },
+            {
+                "Safe_Minimum_Temperature": 140.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 55.0
+            },
+            {
+                "Product_ID": 85.0
+            },
+            {
+                "Tips": "Reheat cooked hams packaged in USDA-inspected plants to 140°F and all others to 165°F."
+            },
+            {
+                "Safe_Minimum_Temperature": 140.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 56.0
+            },
+            {
+                "Product_ID": 86.0
+            },
+            {
+                "Tips": "Reheat cooked hams packaged in USDA-inspected plants to 140°F and all others to 165°F."
+            },
+            {
+                "Safe_Minimum_Temperature": 140.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 57.0
+            },
+            {
+                "Product_ID": 87.0
+            },
+            {
+                "Tips": "Reheat cooked hams packaged in USDA-inspected plants to 140°F and all others to 165°F."
+            },
+            {
+                "Safe_Minimum_Temperature": 140.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 58.0
+            },
+            {
+                "Product_ID": 88.0
+            },
+            {
+                "Tips": "Reheat cooked hams packaged in USDA-inspected plants to 140°F and all others to 165°F."
+            },
+            {
+                "Safe_Minimum_Temperature": 140.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 59.0
+            },
+            {
+                "Product_ID": 89.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 60.0
+            },
+            {
+                "Product_ID": 90.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 61.0
+            },
+            {
+                "Product_ID": 91.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 62.0
+            },
+            {
+                "Product_ID": 92.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 63.0
+            },
+            {
+                "Product_ID": 93.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 64.0
+            },
+            {
+                "Product_ID": 94.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 65.0
+            },
+            {
+                "Product_ID": 95.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 66.0
+            },
+            {
+                "Product_ID": 96.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 67.0
+            },
+            {
+                "Product_ID": 97.0
+            },
+            {
+                "Tips": "Before cooking, soak 4 to 12 hours with water in the refrigerator. After boiling, drain, glaze, and brown at 400°F for 15 minutes."
+            },
+            {
+                "Safe_Minimum_Temperature": null
+            }
+        ],
+        [
+            {
+                "ID": 68.0
+            },
+            {
+                "Product_ID": 113.0
+            },
+            {
+                "Tips": "Cooking times for poultry are for unstuffed birds. Check the internal temperature in the innermost part of the thigh, innermost part of the wing, and thickest part of the breast. Add 15 to 30 minutes for stuffed birds. Stuffed birds are ready when the internal temperature of stuffing reaches 165°F."
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 69.0
+            },
+            {
+                "Product_ID": 114.0
+            },
+            {
+                "Tips": "Cooking times for poultry are for unstuffed birds. Check the internal temperature in the innermost part of the thigh, innermost part of the wing, and thickest part of the breast. Add 15 to 30 minutes for stuffed birds. Stuffed birds are ready when the internal temperature of stuffing reaches 165°F."
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 70.0
+            },
+            {
+                "Product_ID": 115.0
+            },
+            {
+                "Tips": "Cooking suggestions are for burgers. Cooking times are per side if grilling."
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 71.0
+            },
+            {
+                "Product_ID": 116.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 72.0
+            },
+            {
+                "Product_ID": 117.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 73.0
+            },
+            {
+                "Product_ID": 118.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 74.0
+            },
+            {
+                "Product_ID": 119.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 75.0
+            },
+            {
+                "Product_ID": 120.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 76.0
+            },
+            {
+                "Product_ID": 121.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 77.0
+            },
+            {
+                "Product_ID": 122.0
+            },
+            {
+                "Tips": "Cooking times for poultry are for unstuffed birds. Add 15 to 30 minutes for stuffed birds. The internal temperature should reach 165°F in the center of the stuffing."
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 78.0
+            },
+            {
+                "Product_ID": 123.0
+            },
+            {
+                "Tips": "Check the internal temperature in the innermost part of the thigh, innermost part of the wing, and thickest part of the breast."
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 79.0
+            },
+            {
+                "Product_ID": 124.0
+            },
+            {
+                "Tips": "Check the internal temperature in the innermost part of the thigh, innermost part of the wing, and thickest part of the breast."
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 80.0
+            },
+            {
+                "Product_ID": 125.0
+            },
+            {
+                "Tips": "Check the internal temperature in the innermost part of the thigh, innermost part of the wing, and thickest part of the breast."
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 81.0
+            },
+            {
+                "Product_ID": 126.0
+            },
+            {
+                "Tips": "Cooking times for poultry are for unstuffed birds. Check the internal temperature in the innermost part of the thigh, innermost part of the wing, and thickest part of the breast. Add 15 to 30 minutes for stuffed birds. Stuffed birds are ready when the internal temperature of stuffing reaches 165°F."
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 82.0
+            },
+            {
+                "Product_ID": 127.0
+            },
+            {
+                "Tips": "Cooking times for poultry are for unstuffed birds. Check the internal temperature in the innermost part of the thigh, innermost part of the wing, and thickest part of the breast. Add 15 to 30 minutes for stuffed birds. Stuffed birds are ready when the internal temperature of stuffing reaches 165°F."
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 83.0
+            },
+            {
+                "Product_ID": 128.0
+            },
+            {
+                "Tips": "Cooking times for poultry are for unstuffed birds. Check the internal temperature in the innermost part of the thigh, innermost part of the wing, and thickest part of the breast. Add 15 to 30 minutes for stuffed birds. Stuffed birds are ready when the internal temperature of stuffing reaches 165°F."
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 84.0
+            },
+            {
+                "Product_ID": 129.0
+            },
+            {
+                "Tips": "Cooking times for poultry are for unstuffed birds. Check the internal temperature in the innermost part of the thigh, innermost part of the wing, and thickest part of the breast. Add 15 to 30 minutes for stuffed birds. Stuffed birds are ready when the internal temperature of stuffing reaches 165°F."
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 85.0
+            },
+            {
+                "Product_ID": 144.0
+            },
+            {
+                "Tips": "Cook until flesh is opaque and separates easily with a fork."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 86.0
+            },
+            {
+                "Product_ID": 145.0
+            },
+            {
+                "Tips": "Cook until flesh is opaque and separates easily with a fork."
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 87.0
+            },
+            {
+                "Product_ID": 146.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 88.0
+            },
+            {
+                "Product_ID": 150.0
+            },
+            {
+                "Tips": "Cook until flesh is milky white or opaque and firm."
+            },
+            {
+                "Safe_Minimum_Temperature": null
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 89.0
+            },
+            {
+                "Product_ID": 151.0
+            },
+            {
+                "Tips": "Cook until flesh is pearly and opaque."
+            },
+            {
+                "Safe_Minimum_Temperature": null
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 90.0
+            },
+            {
+                "Product_ID": 154.0
+            },
+            {
+                "Tips": "Cook until flesh is pearly and opaque."
+            },
+            {
+                "Safe_Minimum_Temperature": null
+            }
+        ],
+        [
+            {
+                "ID": 91.0
+            },
+            {
+                "Product_ID": 157.0
+            },
+            {
+                "Tips": "Cook until shells open during cooking."
+            },
+            {
+                "Safe_Minimum_Temperature": null
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 92.0
+            },
+            {
+                "Product_ID": 158.0
+            },
+            {
+                "Tips": "Cook until flesh is pearly and opaque."
+            },
+            {
+                "Safe_Minimum_Temperature": null
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 93.0
+            },
+            {
+                "Product_ID": 159.0
+            },
+            {
+                "Tips": "Cook until flesh is pearly and opaque."
+            },
+            {
+                "Safe_Minimum_Temperature": null
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 94.0
+            },
+            {
+                "Product_ID": 160.0
+            },
+            {
+                "Tips": "Cook until shells open during cooking."
+            },
+            {
+                "Safe_Minimum_Temperature": null
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 95.0
+            },
+            {
+                "Product_ID": 161.0
+            },
+            {
+                "Tips": "Cook until flesh is pearly and opaque."
+            },
+            {
+                "Safe_Minimum_Temperature": null
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 96.0
+            },
+            {
+                "Product_ID": 194.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            },
+            {
+                "Rest_Time_metric": null
+            }
+        ],
+        [
+            {
+                "ID": 97.0
+            },
+            {
+                "Product_ID": 81.0
+            },
+            {
+                "Tips": "Cooking methods apply covered in water."
+            },
+            {
+                "Safe_Minimum_Temperature": null
+            }
+        ],
+        [
+            {
+                "ID": 98.0
+            },
+            {
+                "Product_ID": 106.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 145.0
+            },
+            {
+                "Rest_Time": 3.0
+            },
+            {
+                "Rest_Time_metric": "minutes"
+            }
+        ],
+        [
+            {
+                "ID": 99.0
+            },
+            {
+                "Product_ID": 132.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 100.0
+            },
+            {
+                "Product_ID": 134.0
+            },
+            {
+                "Tips": "Follow packaging directions."
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 101.0
+            },
+            {
+                "Product_ID": 135.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 102.0
+            },
+            {
+                "Product_ID": 141.0
+            },
+            {
+                "Tips": null
+            },
+            {
+                "Safe_Minimum_Temperature": 165.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ],
+        [
+            {
+                "ID": 105.0
+            },
+            {
+                "Product_ID": 78.0
+            },
+            {
+                "Tips": "Cooking suggestions are for burgers. Cooking times are per side if grilling."
+            },
+            {
+                "Safe_Minimum_Temperature": 160.0
+            },
+            {
+                "Rest_Time": null
+            }
+        ]
+    ],
+    "maxRows": 93,
+    "maxCols": 0
+}

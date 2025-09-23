@@ -1,0 +1,3113 @@
+{
+    "name": "CookingMethods",
+    "data": [
+        [
+            {
+                "ID": 1.0
+            },
+            {
+                "Product_ID": 34.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 23.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 2.0
+            },
+            {
+                "Product_ID": 35.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 6.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 28.0
+            },
+            {
+                "Timing_to": 38.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 3.0
+            },
+            {
+                "Product_ID": 36.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 2.5
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 30.0
+            },
+            {
+                "Timing_to": 35.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 4.0
+            },
+            {
+                "Product_ID": 37.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 6.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 425.0
+            },
+            {
+                "Timing_from": 45.0
+            },
+            {
+                "Timing_to": 60.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 5.0
+            },
+            {
+                "Product_ID": 38.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 2.0
+            },
+            {
+                "Measure_to": 3.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 425.0
+            },
+            {
+                "Timing_from": 35.0
+            },
+            {
+                "Timing_to": 45.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 6.0
+            },
+            {
+                "Product_ID": 39.0
+            },
+            {
+                "Cooking_Method": "Braise"
+            },
+            {
+                "Measure_from": 3.0
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 1.5
+            },
+            {
+                "Timing_to": 2.5
+            },
+            {
+                "Timing_metric": "hours"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 7.0
+            },
+            {
+                "Product_ID": 40.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 4.0
+            },
+            {
+                "Timing_to": 5.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 8.0
+            },
+            {
+                "Product_ID": 41.0
+            },
+            {
+                "Cooking_Method": "Cover with liquid; simmer"
+            },
+            {
+                "Measure_from": 1.0
+            },
+            {
+                "Measure_to": 1.5
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 2.0
+            },
+            {
+                "Timing_to": 3.0
+            },
+            {
+                "Timing_metric": "hours"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 9.0
+            },
+            {
+                "Product_ID": 42.0
+            },
+            {
+                "Cooking_Method": "Braise"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "ounces"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 1.5
+            },
+            {
+                "Timing_to": 2.5
+            },
+            {
+                "Timing_metric": "hours"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 10.0
+            },
+            {
+                "Product_ID": 43.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill/Fry"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "ounces"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 3.0
+            },
+            {
+                "Timing_to": 5.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 11.0
+            },
+            {
+                "Product_ID": 44.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 5.0
+            },
+            {
+                "Measure_to": 7.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 25.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 12.0
+            },
+            {
+                "Product_ID": 45.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 7.0
+            },
+            {
+                "Measure_to": 9.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 15.0
+            },
+            {
+                "Timing_to": 20.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 13.0
+            },
+            {
+                "Product_ID": 46.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 7.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 25.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 14.0
+            },
+            {
+                "Product_ID": 47.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 3.0
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 375.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 15.0
+            },
+            {
+                "Product_ID": 48.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 3.0
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 30.0
+            },
+            {
+                "Timing_to": 35.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 16.0
+            },
+            {
+                "Product_ID": 49.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill"
+            },
+            {
+                "Measure_from": 1.0
+            },
+            {
+                "Measure_to": 1.5
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 8.0
+            },
+            {
+                "Timing_to": 12.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 17.0
+            },
+            {
+                "Product_ID": 50.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill/Fry"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "ounces"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 5.0
+            },
+            {
+                "Timing_to": 8.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 18.0
+            },
+            {
+                "Product_ID": 51.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill"
+            },
+            {
+                "Measure_from": 1.0
+            },
+            {
+                "Measure_to": 1.5
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 7.0
+            },
+            {
+                "Timing_to": 11.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 19.0
+            },
+            {
+                "Product_ID": 52.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill"
+            },
+            {
+                "Measure_from": 0.75
+            },
+            {
+                "Measure_to": 0.75
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 14.0
+            },
+            {
+                "Timing_to": 18.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 20.0
+            },
+            {
+                "Product_ID": 53.0
+            },
+            {
+                "Cooking_Method": "Cover with liquid; simmer"
+            },
+            {
+                "Measure_from": 1.0
+            },
+            {
+                "Measure_to": 1.5
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 1.0
+            },
+            {
+                "Timing_to": 1.5
+            },
+            {
+                "Timing_metric": "hours"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 21.0
+            },
+            {
+                "Product_ID": 54.0
+            },
+            {
+                "Cooking_Method": "Cover with liquid; simmer"
+            },
+            {
+                "Measure_from": 0.75
+            },
+            {
+                "Measure_to": 1.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 1.0
+            },
+            {
+                "Timing_to": 1.5
+            },
+            {
+                "Timing_metric": "hours"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 22.0
+            },
+            {
+                "Product_ID": 55.0
+            },
+            {
+                "Cooking_Method": "Braise"
+            },
+            {
+                "Measure_from": 1.5
+            },
+            {
+                "Measure_to": 2.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 1.0
+            },
+            {
+                "Timing_to": 1.5
+            },
+            {
+                "Timing_metric": "hours"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 23.0
+            },
+            {
+                "Product_ID": 56.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 3.0
+            },
+            {
+                "Measure_to": 5.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 35.0
+            },
+            {
+                "Timing_to": 40.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 24.0
+            },
+            {
+                "Product_ID": 57.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 3.0
+            },
+            {
+                "Measure_to": 5.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 35.0
+            },
+            {
+                "Timing_to": 40.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 25.0
+            },
+            {
+                "Product_ID": 58.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 3.0
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 30.0
+            },
+            {
+                "Timing_to": 34.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 26.0
+            },
+            {
+                "Product_ID": 59.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill/Fry"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "ounces"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 5.0
+            },
+            {
+                "Timing_to": 8.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 27.0
+            },
+            {
+                "Product_ID": 60.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 2.0
+            },
+            {
+                "Measure_to": 5.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 28.0
+            },
+            {
+                "Product_ID": 61.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 2.0
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 23.0
+            },
+            {
+                "Timing_to": 33.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 29.0
+            },
+            {
+                "Product_ID": 63.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill"
+            },
+            {
+                "Measure_from": 0.75
+            },
+            {
+                "Measure_to": 1.5
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 8.0
+            },
+            {
+                "Timing_to": 9.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 30.0
+            },
+            {
+                "Product_ID": 63.0
+            },
+            {
+                "Cooking_Method": "Skillet"
+            },
+            {
+                "Measure_from": 0.25
+            },
+            {
+                "Measure_to": 0.75
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 3.0
+            },
+            {
+                "Timing_to": 4.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 31.0
+            },
+            {
+                "Product_ID": 63.0
+            },
+            {
+                "Cooking_Method": "Braise"
+            },
+            {
+                "Measure_from": 0.25
+            },
+            {
+                "Measure_to": 0.75
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 6.0
+            },
+            {
+                "Timing_to": 8.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 32.0
+            },
+            {
+                "Product_ID": 64.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill"
+            },
+            {
+                "Measure_from": 0.75
+            },
+            {
+                "Measure_to": 1.5
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 12.0
+            },
+            {
+                "Timing_to": 16.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 33.0
+            },
+            {
+                "Product_ID": 64.0
+            },
+            {
+                "Cooking_Method": "Skillet"
+            },
+            {
+                "Measure_from": 0.25
+            },
+            {
+                "Measure_to": 0.75
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 7.0
+            },
+            {
+                "Timing_to": 8.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 34.0
+            },
+            {
+                "Product_ID": 64.0
+            },
+            {
+                "Cooking_Method": "Braise"
+            },
+            {
+                "Measure_from": 0.25
+            },
+            {
+                "Measure_to": 0.75
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 6.0
+            },
+            {
+                "Timing_to": 8.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 35.0
+            },
+            {
+                "Product_ID": 65.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 6.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 36.0
+            },
+            {
+                "Product_ID": 66.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 6.0
+            },
+            {
+                "Measure_to": 10.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 25.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 37.0
+            },
+            {
+                "Product_ID": 67.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 0.5
+            },
+            {
+                "Measure_to": 1.5
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": "425-450"
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 38.0
+            },
+            {
+                "Product_ID": 67.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill"
+            },
+            {
+                "Measure_from": 0.5
+            },
+            {
+                "Measure_to": 1.5
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 20.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 39.0
+            },
+            {
+                "Product_ID": 69.0
+            },
+            {
+                "Cooking_Method": "Braise"
+            },
+            {
+                "Measure_from": 0.5
+            },
+            {
+                "Measure_to": 1.0
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 8.0
+            },
+            {
+                "Timing_to": 10.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 40.0
+            },
+            {
+                "Product_ID": 69.0
+            },
+            {
+                "Cooking_Method": "Skillet"
+            },
+            {
+                "Measure_from": 0.5
+            },
+            {
+                "Measure_to": 1.0
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 8.0
+            },
+            {
+                "Timing_to": 10.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 41.0
+            },
+            {
+                "Product_ID": 72.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 2.0
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 350.0
+            },
+            {
+                "Timing_from": 1.5
+            },
+            {
+                "Timing_to": 2.0
+            },
+            {
+                "Timing_metric": "hours"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 42.0
+            },
+            {
+                "Product_ID": 72.0
+            },
+            {
+                "Cooking_Method": "Braise"
+            },
+            {
+                "Measure_from": 2.0
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 1.5
+            },
+            {
+                "Timing_to": 2.0
+            },
+            {
+                "Timing_metric": "hours"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 43.0
+            },
+            {
+                "Product_ID": 72.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill"
+            },
+            {
+                "Measure_from": 2.0
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 1.5
+            },
+            {
+                "Timing_to": 2.0
+            },
+            {
+                "Timing_metric": "hours"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 44.0
+            },
+            {
+                "Product_ID": 73.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill/Fry"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "ounces"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 5.0
+            },
+            {
+                "Timing_to": 10.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 45.0
+            },
+            {
+                "Product_ID": 74.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 3.0
+            },
+            {
+                "Measure_to": 6.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 350.0
+            },
+            {
+                "Timing_from": 45.0
+            },
+            {
+                "Timing_to": 45.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 46.0
+            },
+            {
+                "Product_ID": 74.0
+            },
+            {
+                "Cooking_Method": "Braise"
+            },
+            {
+                "Measure_from": 3.0
+            },
+            {
+                "Measure_to": 6.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 2.0
+            },
+            {
+                "Timing_to": 2.5
+            },
+            {
+                "Timing_metric": "hours"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 47.0
+            },
+            {
+                "Product_ID": 75.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill"
+            },
+            {
+                "Measure_from": 1.0
+            },
+            {
+                "Measure_to": 1.0
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 10.0
+            },
+            {
+                "Timing_to": 15.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 48.0
+            },
+            {
+                "Product_ID": 75.0
+            },
+            {
+                "Cooking_Method": "Cover with liquid; simmer"
+            },
+            {
+                "Measure_from": 1.0
+            },
+            {
+                "Measure_to": 1.0
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 45.0
+            },
+            {
+                "Timing_to": 60.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 49.0
+            },
+            {
+                "Product_ID": 76.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 3.0
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 25.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 50.0
+            },
+            {
+                "Product_ID": 83.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 10.0
+            },
+            {
+                "Measure_to": 14.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 15.0
+            },
+            {
+                "Timing_to": 18.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 51.0
+            },
+            {
+                "Product_ID": 84.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 5.0
+            },
+            {
+                "Measure_to": 7.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 18.0
+            },
+            {
+                "Timing_to": 24.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 52.0
+            },
+            {
+                "Product_ID": 85.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 7.0
+            },
+            {
+                "Measure_to": 9.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 10.0
+            },
+            {
+                "Timing_to": 18.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 53.0
+            },
+            {
+                "Product_ID": 86.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 5.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 25.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 54.0
+            },
+            {
+                "Product_ID": 87.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 3.0
+            },
+            {
+                "Measure_to": 10.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 15.0
+            },
+            {
+                "Timing_to": 20.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 55.0
+            },
+            {
+                "Product_ID": 88.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 6.0
+            },
+            {
+                "Measure_to": 12.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 10.0
+            },
+            {
+                "Timing_to": 15.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 56.0
+            },
+            {
+                "Product_ID": 89.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 10.0
+            },
+            {
+                "Measure_to": 14.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 18.0
+            },
+            {
+                "Timing_to": 20.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 57.0
+            },
+            {
+                "Product_ID": 90.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 5.0
+            },
+            {
+                "Measure_to": 7.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 22.0
+            },
+            {
+                "Timing_to": 25.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 58.0
+            },
+            {
+                "Product_ID": 91.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 3.0
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 35.0
+            },
+            {
+                "Timing_to": 40.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 59.0
+            },
+            {
+                "Product_ID": 92.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 5.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 30.0
+            },
+            {
+                "Timing_to": 35.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 60.0
+            },
+            {
+                "Product_ID": 93.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 2.0
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 35.0
+            },
+            {
+                "Timing_to": 40.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 61.0
+            },
+            {
+                "Product_ID": 94.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 8.0
+            },
+            {
+                "Measure_to": 20.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 22.0
+            },
+            {
+                "Timing_to": 26.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 62.0
+            },
+            {
+                "Product_ID": 95.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 5.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 24.0
+            },
+            {
+                "Timing_to": 28.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 63.0
+            },
+            {
+                "Product_ID": 96.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 5.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 35.0
+            },
+            {
+                "Timing_to": 40.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 64.0
+            },
+            {
+                "Product_ID": 97.0
+            },
+            {
+                "Cooking_Method": "Boil"
+            },
+            {
+                "Measure_from": 6.0
+            },
+            {
+                "Measure_to": 16.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 25.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 65.0
+            },
+            {
+                "Product_ID": 113.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 5.0
+            },
+            {
+                "Measure_to": 7.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 350.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 66.0
+            },
+            {
+                "Product_ID": 114.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 24.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 30.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 67.0
+            },
+            {
+                "Product_ID": 115.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill/Fry"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "ounces"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 5.0
+            },
+            {
+                "Timing_to": 8.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 68.0
+            },
+            {
+                "Product_ID": 116.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 6.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "ounces"
+            },
+            {
+                "Cooking_Temperature": 350.0
+            },
+            {
+                "Timing_from": 30.0
+            },
+            {
+                "Timing_to": 40.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 69.0
+            },
+            {
+                "Product_ID": 117.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 4.0
+            },
+            {
+                "Size_metric": "ounces"
+            },
+            {
+                "Cooking_Temperature": 350.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 70.0
+            },
+            {
+                "Product_ID": 118.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "ounces"
+            },
+            {
+                "Cooking_Temperature": 350.0
+            },
+            {
+                "Timing_from": 40.0
+            },
+            {
+                "Timing_to": 50.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 71.0
+            },
+            {
+                "Product_ID": 119.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 30.0
+            },
+            {
+                "Timing_to": 40.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 72.0
+            },
+            {
+                "Product_ID": 120.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 73.0
+            },
+            {
+                "Product_ID": 121.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 40.0
+            },
+            {
+                "Timing_to": 50.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 74.0
+            },
+            {
+                "Product_ID": 123.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": 375.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 20.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 75.0
+            },
+            {
+                "Product_ID": 124.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": 350.0
+            },
+            {
+                "Timing_from": 18.0
+            },
+            {
+                "Timing_to": 20.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 76.0
+            },
+            {
+                "Product_ID": 125.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 25.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 77.0
+            },
+            {
+                "Product_ID": 126.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 2.0
+            },
+            {
+                "Measure_to": 3.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 350.0
+            },
+            {
+                "Timing_from": 30.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 78.0
+            },
+            {
+                "Product_ID": 127.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": 425.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 20.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 79.0
+            },
+            {
+                "Product_ID": 128.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "pounds"
+            },
+            {
+                "Cooking_Temperature": 375.0
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 80.0
+            },
+            {
+                "Product_ID": 129.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": 18.0
+            },
+            {
+                "Measure_to": 24.0
+            },
+            {
+                "Size_metric": "ounces"
+            },
+            {
+                "Cooking_Temperature": 350.0
+            },
+            {
+                "Timing_from": 50.0
+            },
+            {
+                "Timing_to": 60.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 81.0
+            },
+            {
+                "Product_ID": 81.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": 350.0
+            },
+            {
+                "Timing_from": 1.0
+            },
+            {
+                "Timing_to": 1.0
+            },
+            {
+                "Timing_metric": "hour"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 82.0
+            },
+            {
+                "Product_ID": 81.0
+            },
+            {
+                "Cooking_Method": "Cover with liquid; simmer"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 1.0
+            },
+            {
+                "Timing_to": 1.0
+            },
+            {
+                "Timing_metric": "hour"
+            },
+            {
+                "Timing_per": "pound"
+            }
+        ],
+        [
+            {
+                "ID": 83.0
+            },
+            {
+                "Product_ID": 81.0
+            },
+            {
+                "Cooking_Method": "Slow Cooker (Low)"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 10.0
+            },
+            {
+                "Timing_to": 12.0
+            },
+            {
+                "Timing_metric": "hours"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 84.0
+            },
+            {
+                "Product_ID": 81.0
+            },
+            {
+                "Cooking_Method": "Slow Cooker (High)"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 5.0
+            },
+            {
+                "Timing_to": 6.0
+            },
+            {
+                "Timing_metric": "hours"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 85.0
+            },
+            {
+                "Product_ID": 106.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill"
+            },
+            {
+                "Measure_from": 1.0
+            },
+            {
+                "Measure_to": 1.5
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 35.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 86.0
+            },
+            {
+                "Product_ID": 132.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill"
+            },
+            {
+                "Measure_from": 1.0
+            },
+            {
+                "Measure_to": 1.5
+            },
+            {
+                "Size_metric": "inches"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 20.0
+            },
+            {
+                "Timing_to": 35.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 87.0
+            },
+            {
+                "Product_ID": 135.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": null
+            }
+        ],
+        [
+            {
+                "ID": 88.0
+            },
+            {
+                "Product_ID": 141.0
+            },
+            {
+                "Cooking_Method": "Oven"
+            },
+            {
+                "Measure_from": null
+            },
+            {
+                "Measure_to": null
+            },
+            {
+                "Size_metric": null
+            },
+            {
+                "Cooking_Temperature": 325.0
+            },
+            {
+                "Timing_from": 30.0
+            },
+            {
+                "Timing_to": 30.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ],
+        [
+            {
+                "ID": 92.0
+            },
+            {
+                "Product_ID": 78.0
+            },
+            {
+                "Cooking_Method": "Broil/Grill/Fry"
+            },
+            {
+                "Measure_from": 4.0
+            },
+            {
+                "Measure_to": 8.0
+            },
+            {
+                "Size_metric": "ounces"
+            },
+            {
+                "Cooking_Temperature": null
+            },
+            {
+                "Timing_from": 5.0
+            },
+            {
+                "Timing_to": 8.0
+            },
+            {
+                "Timing_metric": "minutes"
+            },
+            {
+                "Timing_per": null
+            }
+        ]
+    ],
+    "maxRows": 89,
+    "maxCols": 0
+}
