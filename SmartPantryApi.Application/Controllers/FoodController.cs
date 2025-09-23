@@ -8,10 +8,12 @@ namespace SmartPantryApi.Application.Controllers;
 public class FoodController : ControllerBase
 {
     private readonly FoodKeeperService _foodKeeperService;
+    private readonly ItemsRepository _itemsRepository;
 
-    public FoodController(FoodKeeperService foodKeeperService)
+    public FoodController(FoodKeeperService foodKeeperService, ItemsRepository itemsRepository)
     {
         _foodKeeperService = foodKeeperService;
+        _itemsRepository = itemsRepository;
     }
 
     [HttpGet("{name}")]
@@ -30,6 +32,22 @@ public class FoodController : ControllerBase
             RefrigeratorDays = item.RefrigeratorDays,
             FreezerDays = item.FreezerDays
         });
+    }
+
+    [HttpGet("db/id/{id:int}")]
+    public async Task<IActionResult> GetDbById(int id, CancellationToken ct)
+    {
+        var item = await _itemsRepository.GetByIdAsync(id, ct);
+        if (item is null) return NotFound();
+        return Ok(item);
+    }
+
+    [HttpGet("db/name/{name}")]
+    public async Task<IActionResult> GetDbByName(string name, CancellationToken ct)
+    {
+        var item = await _itemsRepository.GetByNameAsync(name, ct);
+        if (item is null) return NotFound();
+        return Ok(item);
     }
 }
 

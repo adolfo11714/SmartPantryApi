@@ -1,0 +1,39 @@
+version: '3.9'
+services:
+  mysql:
+    build: .
+    container_name: food-pantry-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: food_pantry
+      MYSQL_USER: food_user
+      MYSQL_PASSWORD: food_pass
+      MYSQL_ROOT_PASSWORD: rootpass
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-prootpass"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  seeder:
+    image: python:3.11-slim
+    container_name: food-pantry-seeder
+    depends_on:
+      mysql:
+        condition: service_healthy
+    working_dir: /app
+    volumes:
+      - ./seed:/app
+      - ./product.json:/app/product.json:ro
+    environment:
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_NAME: food_pantry
+      DB_USER: root
+      DB_PASSWORD: rootpass
+    command: sh -c "pip install -r requirements.txt && python seed.py"
+volumes:
+  db_data:

@@ -8,6 +8,8 @@ builder.Services.AddOpenApi();
 
 // SmartPantry services
 builder.Services.AddSingleton<SmartPantryApi.Application.Services.FoodKeeperService>();
+builder.Services.AddSingleton<System.Data.Common.DbProviderFactory>(sp => MySqlConnector.MySqlConnectorFactory.Instance);
+builder.Services.AddScoped<SmartPantryApi.Application.Services.ItemsRepository>();
 
 var app = builder.Build();
 

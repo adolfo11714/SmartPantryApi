@@ -9,13 +9,8 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.7"/>
+        <PackageReference Include="MySqlConnector" Version="2.4.0"/>
     </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Resources\foodkeeper.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 
     <ItemGroup>
       <Content Include="..\.dockerignore">
