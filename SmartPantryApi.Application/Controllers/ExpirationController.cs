@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using SmartPantryApi.Application.Services;
+using SmartyPantryApi.Application.Domain.Enums;
 
 namespace SmartPantryApi.Application.Controllers;
 
@@ -17,7 +18,7 @@ public class ExpirationController : ControllerBase
     [HttpPost]
     public ActionResult<ExpirationResponse> Calculate([FromBody] ExpirationRequest request)
     {
-        var expiration = _foodKeeperService.CalculateExpiration(request.PurchasedOn, request.ProductName, request.StorageLocation);
+        var expiration = _foodKeeperService.CalculateExpiration(request.PurchasedOn, request.ProductName, request.StorageLocationEnum);
         if (expiration is null)
         {
             return NotFound(new { message = "No duration found for product or storage location." });
@@ -27,7 +28,7 @@ public class ExpirationController : ControllerBase
         {
             ProductName = request.ProductName,
             PurchasedOn = request.PurchasedOn,
-            StorageLocation = request.StorageLocation,
+            StorageLocationEnum = request.StorageLocationEnum,
             ExpiresOn = expiration.Value
         });
     }
@@ -37,14 +38,14 @@ public sealed class ExpirationRequest
 {
     public string ProductName { get; set; } = string.Empty;
     public DateOnly PurchasedOn { get; set; }
-    public StorageLocation StorageLocation { get; set; }
+    public StorageLocationEnum StorageLocationEnum { get; set; }
 }
 
 public sealed class ExpirationResponse
 {
     public string ProductName { get; set; } = string.Empty;
     public DateOnly PurchasedOn { get; set; }
-    public StorageLocation StorageLocation { get; set; }
+    public StorageLocationEnum StorageLocationEnum { get; set; }
     public DateOnly ExpiresOn { get; set; }
 }
 

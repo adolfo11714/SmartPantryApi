@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using SmartPantryApi.Application.Infrastructure;
 using SmartPantryApi.Application.Services;
+using SmartPantryApi.Application.Services.Interfaces;
 
 namespace SmartPantryApi.Application.Controllers;
 
@@ -7,37 +9,18 @@ namespace SmartPantryApi.Application.Controllers;
 [Route("api/food")]
 public class FoodController : ControllerBase
 {
-    private readonly FoodKeeperService _foodKeeperService;
-    private readonly ItemsRepository _itemsRepository;
+    
+    private readonly IFoodPantryService _foodPantryService;
 
-    public FoodController(FoodKeeperService foodKeeperService, ItemsRepository itemsRepository)
+    public FoodController(IFoodPantryService foodPantryService)
     {
-        _foodKeeperService = foodKeeperService;
-        _itemsRepository = itemsRepository;
-    }
-
-    [HttpGet("{name}")]
-    public ActionResult<FoodItemResponse> GetByName(string name)
-    {
-        var item = _foodKeeperService.GetItemByName(name);
-        if (item is null)
-        {
-            return NotFound(new { message = "No food item found with that name." });
-        }
-
-        return Ok(new FoodItemResponse
-        {
-            Name = item.Name,
-            PantryDays = item.PantryDays,
-            RefrigeratorDays = item.RefrigeratorDays,
-            FreezerDays = item.FreezerDays
-        });
+        _foodPantryService = foodPantryService;
     }
 
     [HttpGet("db/id/{id:int}")]
     public async Task<IActionResult> GetDbById(int id, CancellationToken ct)
     {
-        var item = await _itemsRepository.GetByIdAsync(id, ct);
+        var item = await _foodPantryService.GetByIdAsync(id, ct);
         if (item is null) return NotFound();
         return Ok(item);
     }
@@ -45,7 +28,7 @@ public class FoodController : ControllerBase
     [HttpGet("db/name/{name}")]
     public async Task<IActionResult> GetDbByName(string name, CancellationToken ct)
     {
-        var item = await _itemsRepository.GetByNameAsync(name, ct);
+        var item = await _foodPantryService.GetByNameAsync(name, ct);
         if (item is null) return NotFound();
         return Ok(item);
     }

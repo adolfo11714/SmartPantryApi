@@ -1,3 +1,8 @@
+using SmartPantryApi.Application.Infrastructure;
+using SmartPantryApi.Application.Infrastructure.Interfaces;
+using SmartPantryApi.Application.Services;
+using SmartPantryApi.Application.Services.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,9 +12,10 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 // SmartPantry services
-builder.Services.AddSingleton<SmartPantryApi.Application.Services.FoodKeeperService>();
+builder.Services.AddSingleton<FoodKeeperService>();
 builder.Services.AddSingleton<System.Data.Common.DbProviderFactory>(sp => MySqlConnector.MySqlConnectorFactory.Instance);
-builder.Services.AddScoped<SmartPantryApi.Application.Services.ItemsRepository>();
+builder.Services.AddSingleton<IFoodPantryRepository, FoodPantryRepository>();
+builder.Services.AddSingleton<IFoodPantryService, FoodPantryService>();
 
 var app = builder.Build();
 
