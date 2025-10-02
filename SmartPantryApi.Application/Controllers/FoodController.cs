@@ -32,6 +32,14 @@ public class FoodController : ControllerBase
         if (item is null) return NotFound();
         return Ok(item);
     }
+
+    [HttpGet("db/category_id/{id}")]
+    public async Task<IActionResult> GetCategoryDbById(int id, CancellationToken ct)
+    {
+        var item = await _foodPantryService.GetCategoryByIdAsync(id, ct);
+        if (item.ID == 0) return NotFound();
+        return Ok(item);
+    }
 }
 
 public sealed class FoodItemResponse

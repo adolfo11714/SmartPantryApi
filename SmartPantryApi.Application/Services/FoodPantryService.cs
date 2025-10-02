@@ -7,43 +7,40 @@ using SmartyPantryApi.Application.Domain.Enums;
 
 namespace SmartPantryApi.Application.Services;
 
-public class FoodPantryService : IFoodPantryService
+public class FoodPantryService(IFoodPantryRepository foodPantryRepository) : IFoodPantryService
 {
-    private readonly IFoodPantryRepository _foodPantryRepository;
-
-    public FoodPantryService(IFoodPantryRepository foodPantryRepository)
-    {
-        _foodPantryRepository = foodPantryRepository;
-    }
-
     public async Task<FoodItemDTO?> GetByIdAsync(int id, CancellationToken ct)
     {
-        var result = await _foodPantryRepository.GetByIdAsync(id, ct);
-
+        var result = await foodPantryRepository.GetByIdAsync(id, ct);
+        
         if (result == null) return null;
 
-        var foodItemDto = FoodItemMapper(result);
+        int categoryId = result.Category_ID ?? 0;
+        var category = await foodPantryRepository.GetCategoryByIdAsync(categoryId, ct);
+
+        var foodItemDto = FoodItemMapper(result, category);
 
         return foodItemDto;
     }
 
     public async Task<FoodItemDTO?> GetByNameAsync(string name, CancellationToken ct)
     {
-        var result = await _foodPantryRepository.GetByNameAsync(name, ct);
+        var result = await foodPantryRepository.GetByNameAsync(name, ct);
         
         if (result == null) return null;
         
-        var foodItemDto = FoodItemMapper(result);
+        int categoryId = result.Category_ID ?? 0;
+        var category = await foodPantryRepository.GetCategoryByIdAsync(categoryId, ct);
         
-        
+        var foodItemDto = FoodItemMapper(result, category);
         
         return foodItemDto;
     }
     
-    private static FoodItemDTO FoodItemMapper(DbFoodItem result)
+    private static FoodItemDTO FoodItemMapper(DbFoodItem result, DbCategory category)
     {
         var storageLocationList = new List<StorageLocationGroup>();
-
+        
         if (result.Pantry_Metric != null)
         {
             var storageLocation = new StorageLocationGroup
@@ -164,8 +161,17 @@ public class FoodPantryService : IFoodPantryService
             Id = result.ID,
             Name = result.Name,
             Description = result.Name_subtitle,
+            Category = category.Category_Name,
+            Subcategory = category.Subcategory_Name,
             StorageLocation = storageLocationList
         };
+
         return foodItemDto;
     }
+    public async Task<DbCategory> GetCategoryByIdAsync(int id, CancellationToken ct)
+    {
+        var result = await foodPantryRepository.GetCategoryByIdAsync(id, ct);
+
+        return result;
+    } 
 }

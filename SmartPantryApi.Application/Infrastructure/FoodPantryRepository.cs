@@ -1,22 +1,14 @@
 using Dapper;
 using SmartPantryApi.Application.Infrastructure.Interfaces;
-using SmartPantryApi.Application.Services;
 using SmartyPantryApi.Application.Domain;
 
 namespace SmartPantryApi.Application.Infrastructure;
 
-public class FoodPantryRepository : IFoodPantryRepository
+public class FoodPantryRepository(IConfiguration configuration) : IFoodPantryRepository
 {
-    private readonly IConfiguration _configuration;
-
-    public FoodPantryRepository(IConfiguration configuration)
-    {
-        _configuration = configuration;
-    }
-
     private string GetConnectionString()
     {
-        return _configuration.GetConnectionString("FoodPantry") ?? string.Empty;
+        return configuration.GetConnectionString("FoodPantry") ?? string.Empty;
     }
 
     public async Task<DbFoodItem?> GetByIdAsync(int id, CancellationToken ct)
@@ -33,6 +25,16 @@ public class FoodPantryRepository : IFoodPantryRepository
         await conn.OpenAsync(ct);
         const string sql = "SELECT * FROM items WHERE Name = @name LIMIT 1";
         return await conn.QueryFirstOrDefaultAsync<DbFoodItem>(sql, new { name }, commandTimeout: 30);
+    }
+
+    public async Task<DbCategory> GetCategoryByIdAsync(int id, CancellationToken ct)
+    {
+        await using var conn = new MySqlConnector.MySqlConnection(GetConnectionString());
+        await conn.OpenAsync(ct);
+        const string sql = "SELECT * FROM categories WHERE ID = @id LIMIT 1";
+        var result = await conn.QueryFirstOrDefaultAsync<DbCategory>(sql, new { id }, commandTimeout: 30);
+        if (result == null) return new DbCategory();
+        return result;
     }
 }
 

@@ -45,6 +45,14 @@ CREATE TABLE IF NOT EXISTS `items` (
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+-- Create categories table
+CREATE TABLE IF NOT EXISTS `categories` (
+  `ID` INT NOT NULL,
+  `Category_Name` VARCHAR(255) NOT NULL,
+  `Subcategory_Name` VARCHAR(255) NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 -- Seed Butter row
 INSERT INTO `items` (
   `ID`,`Category_ID`,`Name`,`Name_subtitle`,`Keywords`,`Pantry_Min`,`Pantry_Max`,`Pantry_Metric`,`Pantry_tips`,

@@ -7,4 +7,5 @@ public interface IFoodPantryService
 {
     public Task<FoodItemDTO?> GetByIdAsync(int id, CancellationToken ct);
     public Task<FoodItemDTO?> GetByNameAsync(string name, CancellationToken ct);
+    public Task<DbCategory> GetCategoryByIdAsync(int id, CancellationToken ct);
 }
